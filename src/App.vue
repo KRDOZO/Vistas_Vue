@@ -7,7 +7,7 @@
       <h1>Bienvenido a la Clinica Tu Esperanza</h1>
     </header>
     <nav>
-      <a href="logIn" v-on:click="loadLogIn" id="logIn">Ingresar</a>
+      <a v-on:click="loadLogIn">Ingresar</a>
       <a href="signUp" v-on:click="loadSignUp" id="singUp">Registrarse</a>
       <a href="services">Servicios</a>
       <a href="contact">Contacto</a>
